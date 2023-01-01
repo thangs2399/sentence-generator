@@ -8,10 +8,13 @@
 ## Outputs
 
 ![uni-gram output screenshot](./screen-shots/unigram.jpg?raw=true "uni-gram output")
+> uni-gram model's output   
 
 ![bi-gram output screenshot](./screen-shots/bigram.jpg?raw=true "uni-gram output")
+> bi-gram model's output   
 
 ![tri-gram output screenshot](./screen-shots/trigram.jpg?raw=true "tri-gram output")
+> tri-gram model's output   
 
 ## Guide to run the program
 
@@ -22,7 +25,7 @@
 ```
 '''
     main.py -> the main program name
-    3       ->  tri-gram
+    3       ->  uses tri-gram model
     10      ->  # sentences to generate
     
     'dracula.txt' and 'macbeth.txt' files are used to train the program.
