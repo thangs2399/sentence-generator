@@ -17,16 +17,15 @@
 
 > The program takes at least three arguments, 'ngram model', 'number of sentences to generate', and 'textfiles', in that order. As said above, there are only three ngram models in this program (1. unigram, 2. bigram, 3. trigram). There can be multiple textfiles to train the program, they just have be after the 'number of sentences to generate' argument.   
 
-> Below is an example. The 'dracula.txt' and 'macbeth.txt' files are used to trained the program. The trigram model ("3") is used to generate "10" sentences. 
+> Below is an example. 
 
 ```
 '''
-
-    main.py -> the main program
+    main.py -> the main program name
     3       ->  tri-gram
     10      ->  # sentences to generate
     
-    dracula.txt and macbeth.txt files are used to train the program.
+    'dracula.txt' and 'macbeth.txt' files are used to train the program.
 '''
 python3 main.py 3 10 dracula.txt macbeth.txt
 ```
